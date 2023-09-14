@@ -1,0 +1,33 @@
+footer {
+  position: absolute;
+  width: 100vw;
+  top: 88%;
+  left: 0;
+  position: fixed;
+  background: #efc5ca;
+}
+
+footer .container {
+  padding: 2%;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  align-items: center;
+}
+
+.col {
+  align-self: center;
+  color: aliceblue;
+  font-size: 1.5em;
+  font-weight: 700;
+  transition: all 0.2s linear;
+}
+.col:hover {
+  color: var(--accent-color);
+  cursor: pointer;
+}

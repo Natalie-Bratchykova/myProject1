@@ -1,0 +1,41 @@
+.title {
+  text-align: center;
+  margin-top: 2%;
+  text-transform: uppercase;
+  position: relative;
+  background: linear-gradient(to right, #dc707d, #aa78d3);
+  color: transparent;
+  font-weight: 900;
+  font-size: 3em;
+  -webkit-background-clip: text;
+}
+.subtitle {
+  margin-top: -1%;
+  font-size: 1.3em;
+  letter-spacing: 0.3em;
+}
+
+.subtitle,
+.page__text {
+  text-align: center;
+}
+
+.page__text {
+  margin-top: 10%;
+  font-size: 1.5em;
+}
+.auther-img {
+  text-align: center;
+}
+.auther-img img {
+  /* height: 15em; */
+  width: 10em;
+  border-radius: 50%;
+}
+
+.image__text {
+  text-align: center;
+  margin-top: 1%;
+  font-size: 1.2em;
+  font-weight: 600;
+}

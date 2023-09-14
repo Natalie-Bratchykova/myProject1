@@ -1,0 +1,45 @@
+:root {
+  --accent-color: rgb(61, 6, 91);
+  --header-color: rgb(240, 176, 222);
+}
+
+header {
+  padding: 1% 0;
+}
+
+header .container {
+  display: flex;
+  width: 1200px;
+  justify-content: space-between;
+  padding: 0.5% 2%;
+}
+
+.logo {
+  font-size: 2em;
+  text-align: center;
+  font-weight: 800;
+  color: var(--accent-color);
+}
+.nav {
+  display: flex;
+  width: 350px;
+  justify-content: space-between;
+}
+
+.nav__item svg {
+  width: 1.7em;
+}
+
+.nav__item {
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+  font-size: 1.2em;
+  transition: all 0.2s linear;
+  font-weight: 700;
+  color: azure;
+}
+
+.nav__item:hover {
+  color: var(--accent-color);
+}

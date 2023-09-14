@@ -1,0 +1,10 @@
+.sended-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10%;
+}
+
+.sended-title svg {
+  margin-left: 2%;
+}

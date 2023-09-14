@@ -1,0 +1,35 @@
+@import url("./reset.css");
+@import url("./header.css");
+@import url("./pages.css");
+@import url("./form.css");
+@import url("./send.css");
+@import url("./waves.css");
+@import url("./footer.css");
+
+body {
+  height: 100vh;
+  overflow-y: hidden;
+}
+.container {
+  width: 1200px;
+  display: block;
+  margin: 0 auto;
+}
+
+.bg_animations {
+  background: linear-gradient(to right, #efc5ca, #aa78d3);
+  background-size: 300%;
+  animation: moveBG 3s infinite;
+  transition: animation linear;
+}
+@keyframes moveBG {
+  0% {
+    background-position: 0;
+  }
+  50% {
+    background-position: 50%;
+  }
+  100% {
+    background-position: 0;
+  }
+}

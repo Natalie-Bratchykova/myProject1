@@ -1,0 +1,64 @@
+:root {
+  --form-color: #dc707d;
+}
+
+.form {
+  border: 1px solid var(--form-color);
+  border-radius: 1em;
+  padding: 1% 2%;
+  max-width: 600px;
+  margin: 2% auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  z-index: 10000;
+}
+
+.input {
+  position: relative;
+  margin: 3% 0;
+  text-align: center;
+}
+
+.input input,
+.input textarea {
+  width: 50%;
+  outline: none;
+}
+.input input {
+  padding: 1% 2%;
+}
+.input input:focus {
+  border-color: var(--form-color);
+
+  outline-color: var(--form-color);
+}
+.input input:focus ~ label,
+.input input:valid ~ label {
+  transform: translateY(-68%);
+  font-size: 0.9em;
+  background: #ffff;
+  color: var(--form-color);
+}
+.name-label {
+  position: absolute;
+  left: 45%;
+  transform: translateY(10%);
+}
+textarea {
+  resize: none;
+  padding: 1% 3%;
+}
+textarea:focus {
+  border-color: var(--form-color);
+}
+
+input[type="submit"] {
+  width: 200px;
+  margin: 0 auto;
+  background-color: transparent;
+  border: 1px solid var(--form-color);
+  color: var(--form-color);
+  border-radius: 1em;
+  padding: 1%;
+}
